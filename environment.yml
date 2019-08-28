@@ -1,0 +1,15 @@
+name: rise-environment
+channels:
+  - damianavila82
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - rise
+  - scipy
+  - pip:
+    - nibabel
+    - nilearn
+    - sklearn
+
